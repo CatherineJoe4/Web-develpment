@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Rampart+One&family=Splash&display=swap');
+#head{
+    height: 120px;
+    background-color: black;
+    width: 1550px;
+}
+#ti{
+    color: snow;
+    text-align: center;
+    font-family: 'Splash', cursive;
+    height: 250px;
+ 
+}
+#it{
+    color: grey;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    
+}
+
+    
+
+
+#mar{
+    background-color: dimgrey;
+    color: rgb(10, 10, 10);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: solid;
+}

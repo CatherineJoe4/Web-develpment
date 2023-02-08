@@ -1,0 +1,59 @@
+<div class="jumbotron text-center" id="whole">
+  <div class="row" id="car">
+    <h2 id="head">CAREERS</h2>
+    <h5 id="bod">If you see yourself fitting into our happy brand of  collaborators and innovators with a keen interest in harnessing the power and luxury of fashion for good,we are interested in hearing from you.</h5><br><br><br>
+    <h5 id="bod">Fill in the form and also send your Resume to our mail id:careers@tanishabrown's.com and we'll get in touch with you.!</h5>
+  </div>
+
+ <div class="row">
+    <div class="col-sm-2">
+
+    </div>
+    <div class="col-sm-8">
+  <form action="">
+    <h1>CAREER OPPURTUINITY</h1>
+        
+       
+    <label for="frame"> <h4>Name:</h4></label>
+    <br>
+    <input type="text" name="Name"  placeholder="Your Name.." [(ngModel)]="Name" >
+    <br><br>
+   <label for="age"><h4>Age:</h4></label>
+    <br>
+    <input type="number" name="Age" placeholder="Your Age.." [(ngModel)]="Age"  >
+    <br><br>
+    <label for="gender"><h4>Gender:</h4></label><br>
+    <h6>male:
+    <input type="radio"   checked="checked" name="Gender" value="male" [(ngModel)]="Gender"></h6>
+    
+    <h6>female:
+    <input type="radio" name="Gender" value="female" [(ngModel)]="Gender" ></h6>
+    <br>
+    <label for="number"><h4>Mobile Number</h4></label>
+    <br>
+    <input type="tel" id="phone" name="Mobilenumber" pattern="+91[7-9]{2}-[0-9]{4}-[0-9]{4}" placeholder="mobile number..." [(ngModel)]="Mobilenumber">
+    <br><br>
+    <label for="mail"><h4>EMAIL ID</h4></label>
+    <br>
+    <input type="email" name="mail" placeholder="Your Email id..." [(ngModel)]="mail">
+    <br><br>
+    <label for="degree"><h4>Degree:</h4></label>
+    <br>
+    <input type="text" name="Degree" placeholder="Degree you got.." [(ngModel)]="Degree" ><br><br>
+    <label for="experience"><h4>Work Experience</h4></label>
+    <br>
+    <input type="number" name="Experience" placeholder="No of years you worked" [(ngModel)]="Experience"><br><br>
+    <label for="myfile"><h4>YOUR BEST WORK</h4></label>
+    <br>
+    <input type="file" name="Work" [(ngModel)]="Work">
+    <br><br>
+    <input type="submit"  class= "btn btn-dark"value="submit"  (click)="addStudent()">
+    <br>
+  </form>
+    </div>
+    <div class="col-sm-2">
+
+    </div>
+ </div>
+</div>
+

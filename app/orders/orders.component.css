@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Rampart+One&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+#ti{
+    color: snow;
+    text-align: center;
+    font-family: 'Splash', cursive;
+    height: 250px;
+ 
+}
+#it{
+    color: grey;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    height: 200px;
+    
+}
+#foot{
+    background-color: black;
+  
+}
+img{
+    padding: 7px;
+}
+#ic{
+    color: snow;
+    font-family: 'Kaushan Script', cursive;
+    
+}
+#ih{
+    color: snow;
+}

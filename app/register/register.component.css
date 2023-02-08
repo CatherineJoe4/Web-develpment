@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+input[type=text] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+  }
+  input{
+    border: 2px solid black;
+  }
+   input[type=file]{
+    
+    color: snow;
+   }
+   form{
+    background-image: url(https://i.pinimg.com/564x/e8/92/40/e8924020dbbe69885542a4e6ae364702.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15%;
+    border: 2px solid black;
+    color: snow;
+    width: 900px;
+    height: 1000px;
+    font-family: 'Kaushan Script', cursive;
+   } 
+   input[type=submit]{
+    width: 150px;
+    height: 50px;
+
+   }
+   label{
+    color: snow;
+    text-decoration: solid;
+   }
+   
+   #head{
+    font-family: 'Shrikhand', cursive;
+    color: rgb(10, 10, 10);
+
+   }
+   #bod{
+    
+    font-family: 'Quintessential', cursive;
+    text-decoration: solid;
+    color: rgb(8, 7, 7);
+   }
+   #whole{
+    background-color: rgb(95, 107, 118);
+   }
+   
+    
+  

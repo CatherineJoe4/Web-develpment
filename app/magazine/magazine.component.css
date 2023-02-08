@@ -1,0 +1,10 @@
+.container-fluid{
+  background-color: rgb(76, 4, 57);
+  color: snow;
+  font-family: 'Courier New', Courier, monospace;
+}
+.img-l{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}

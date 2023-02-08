@@ -1,0 +1,17 @@
+#head{
+    background-color: rgb(238, 10, 10);
+    color: snow;
+    font-family: 'Courier New', Courier, monospace;
+    width: 1600px;
+   
+}
+#body{
+    background-color: rgba(227, 70, 99, 0.681);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+#he{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
